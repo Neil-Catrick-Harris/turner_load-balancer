@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cors());
 
-const IPs = [`3.101.31.245:8000`, `54.215.254.29:3002`];
+const IPs = [];
 const numIPs = IPs.length;
 let ipIdx = 0;
 const PORT = 3002;
